@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 * {
     margin: 0px;
@@ -11,7 +12,7 @@
 
 body {
     height: 100vh;
-    
+    background-color: aquamarine;
 }
 
 header {
@@ -39,4 +40,24 @@ header > p > a {
 header > p > a:hover {
     color: white;
     text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    height: 810px;
+}
+
+main div.parte1 {
+    
+    background-color: white
+    height: 732px;
+    width: 596px;
+    padding: 30px;
+}
+
+main > div.parte1 > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 53px;
+    color: black;
+
 }
