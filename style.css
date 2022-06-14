@@ -42,12 +42,12 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-main {
+section.parte1 {
     background-color: white;
-    height: 810px;
+    height: 696px;
 }
 
-main div.parte1 {
+section article.estrofe1 {
     
     background-color: white
     height: 732px;
@@ -55,9 +55,116 @@ main div.parte1 {
     padding: 30px;
 }
 
-main > div.parte1 > p {
+section > article.estrofe1 > p {
     font-family: 'Sriracha', cursive;
-    font-size: 53px;
+    font-size: 45px;
     color: black;
 
+}
+
+section.parte2 {
+    background-image: url(imagens/background001.jpg);
+    height: 675px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > article.estrofe2 {
+    
+    background-color: rgba(19, 18, 18, 0.733);
+    height: 561px;
+    width: 596px;
+    padding: 30px;
+}
+
+section > article.estrofe2 > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    color: white;
+
+}
+
+section.parte3 {
+    background-color: white;
+    height: 1299px;
+}
+
+section article.estrofe3 {
+    
+    background-color: white
+    height: 732px;
+    width: 596px;
+    padding: 30px;
+}
+
+section > article.estrofe3 > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    color: black;
+}
+
+section.parte4 {
+    background-image: url(imagens/background002.jpg);
+    height: 675px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > article.estrofe4 {
+    
+    background-color: rgba(19, 18, 18, 0.733);
+    height: 561px;
+    width: 596px;
+    padding: 30px;
+}
+
+section > article.estrofe4 > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    color: white;
+}
+
+section.parte5 {
+    background-color: white;
+    height: 1299px;
+}
+
+section article.estrofe5 {
+    
+    background-color: white
+    height: 732px;
+    width: 596px;
+    padding: 30px;
+}
+
+section > article.estrofe5 > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer > p > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: rgb(247, 205, 205);
 }
