@@ -6,165 +6,97 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
 }
 
-body {
-    height: 100vh;
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100vh;
     background-color: aquamarine;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
-    height: 250px;
-    text-align: center;
+    text-align: center; 
 }
 
 header > h1 {
-    font-family: 'Passion One', cursive;
-    padding-top: 40px;
-    font-size: 8em;
-    font-weight: bold;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
-header > p > a {
-    font-family: 'Passion One', cursive;
-    font-weight: normal;
-    font-size: 23px;
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
 }
 
-header > p > a:hover {
+header a:hover, footer a:hover {
     color: white;
     text-decoration: underline;
 }
 
-section.parte1 {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section.normal {
     background-color: white;
-    height: 696px;
-}
-
-section article.estrofe1 {
-    
-    background-color: white
-    height: 732px;
-    width: 596px;
-    padding: 30px;
-}
-
-section > article.estrofe1 > p {
-    font-family: 'Sriracha', cursive;
-    font-size: 45px;
     color: black;
-
 }
 
-section.parte2 {
+section.imagem {
+    background-color: grey;
+    color: white;
+    box-shadow: inset 5px 5px 13px 0px black;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
     background-image: url(imagens/background001.jpg);
-    height: 675px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-section > article.estrofe2 {
-    
-    background-color: rgba(19, 18, 18, 0.733);
-    height: 561px;
-    width: 596px;
-    padding: 30px;
-}
-
-section > article.estrofe2 > p {
-    font-family: 'Sriracha', cursive;
-    font-size: 45px;
-    color: white;
 
 }
 
-section.parte3 {
-    background-color: white;
-    height: 1299px;
-}
-
-section article.estrofe3 {
-    
-    background-color: white
-    height: 732px;
-    width: 596px;
-    padding: 30px;
-}
-
-section > article.estrofe3 > p {
-    font-family: 'Sriracha', cursive;
-    font-size: 45px;
-    color: black;
-}
-
-section.parte4 {
+section#img02 {
     background-image: url(imagens/background002.jpg);
-    height: 675px;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-}
 
-section > article.estrofe4 {
-    
-    background-color: rgba(19, 18, 18, 0.733);
-    height: 561px;
-    width: 596px;
-    padding: 30px;
-}
-
-section > article.estrofe4 > p {
-    font-family: 'Sriracha', cursive;
-    font-size: 45px;
-    color: white;
-}
-
-section.parte5 {
-    background-color: white;
-    height: 1299px;
-}
-
-section article.estrofe5 {
-    
-    background-color: white
-    height: 732px;
-    width: 596px;
-    padding: 30px;
-}
-
-section > article.estrofe5 > p {
-    font-family: 'Sriracha', cursive;
-    font-size: 45px;
-    color: black;
 }
 
 footer {
     background-color: black;
-    height: 50px;
+    padding: 10px;
 }
 
 footer > p {
     color: white;
     text-align: center;
-    padding-top: 15px;
-}
-
-footer > p > a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    color: white;
-    text-decoration: none;
-}
-
-footer > p > a:hover {
-    text-decoration: underline;
-    color: rgb(247, 205, 205);
 }
